@@ -1,0 +1,85 @@
+html{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    background-color: rgb(248, 244, 255);
+    background-image: url("https://images.unsplash.com/photo-1638734118378-3e75e1f2a001?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    height:100vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body
+{
+
+    font-family: Inter, sans-serif;
+    font-size: large;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+.box
+{
+    color: #0d2c41;
+    box-sizing: content-box ;
+    height: auto;
+    width: auto;
+    background-color: #ffc257;
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+h1{
+
+    text-align: center;
+    font-family: "Inter Medium", serif;
+
+    
+}
+
+ul, li{
+    padding-left: 0;
+    list-style: none;
+
+
+}
+a:link {
+
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #0d2c41;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3d0a2e;
+}
+table, th, td {
+    border-collapse: collapse;
+    padding: .7rem;
+    border-radius: 6px;
+    text-align: center;
+
+}
+th{
+    font-family: "Inter SemiBold", sans-serif;
+    background-color: #0d2c41;;
+    border: 2px solid #ffc257;
+    border-radius: 6px;
+    color: white;
+}
+td{
+    background-color: #0d2c41;;
+    border: 2px solid #ffc257;
+    color: white;
+}
+table
+{
+    width: 100%;
+}
